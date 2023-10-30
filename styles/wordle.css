@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+hr {
+  width: 360px;
+  position: center;
+}
+
+#title {
+  font-size: 36px;
+}
+
+#board {
+  width: 350px;
+  height: 420px;
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 3px;
+  /* border: 3px;
+  border-color: black; */
+}
+
+.keytile {
+  /* Box */
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  width: 36px;
+  height: 50px;
+  margin: 1px;  
+  /* text */
+  /* color: black; */
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.tile {
+  /* Box */
+  border: 2px solid lightgray;
+  width: 60px;
+  height: 60px;
+  margin: 2.5px;  
+  /* text */
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.correct {
+  background-color: #6aaa64;
+  color: white;
+  border-color: white;
+}
+
+.present {
+  background-color: #c9b458;
+  color: white;
+  border-color: white; 
+}
+
+.absent {
+  background-color: #787c7e;
+  color: white;
+  border-color: white; 
+
+}
+
+.keyboard-row {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#Enter {
+  /* Box */
+  border: 1px solid lightgray;
+  width: 100x;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 1px;  
+  /* text */
+  /* color: black; */
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#Backspace {
+  border: 1px solid lightgray;
+  width: 100x;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin: 1px;  
+  /* text */
+  /* color: black; */
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+
+}
+
+#keyboard {
+  background-color: #d1d4db;
+  padding: 15px 15px;
+  /* width: 420px; */
+  /* justify-content: center; */
+
+}
