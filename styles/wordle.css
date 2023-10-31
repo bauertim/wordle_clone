@@ -1,6 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin: auto;
+}
+
+title {
+  margin: auto;
 }
 
 hr {
@@ -29,7 +34,7 @@ hr {
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 5px;
-  width: 36px;
+  width: 31px;
   height: 50px;
   margin: 1px;  
   /* text */
@@ -80,17 +85,18 @@ hr {
 }
 
 .keyboard-row {
-  width: 400px;
-  margin: 0 auto;
+  width: 350px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 #Enter {
   /* Box */
   border: 1px solid lightgray;
-  width: 100x;
+  width: 41px;
   height: 50px;
   background-color: white;
   border-radius: 5px;
@@ -98,7 +104,6 @@ hr {
   padding-right: 7px;
   margin: 1px;  
   /* text */
-  /* color: black; */
   font-size: 20px;
   font-weight: 300;
   display: flex;
@@ -109,29 +114,23 @@ hr {
 
 #Backspace {
   border: 1px solid lightgray;
-  width: 100x;
+  width: 41px;
   height: 50px;
   background-color: white;
   border-radius: 5px;
-  padding-left: 7px;
-  padding-right: 7px;
+  /* padding-left: 7px;
+  padding-right: 7px; */
   margin: 1px;  
   /* text */
-  /* color: black; */
   font-size: 20px;
   font-weight: 300;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
-
 }
 
 #keyboard {
   background-color: #d1d4db;
   padding: 15px 15px;
-  /* width: 420px; */
-  /* justify-content: center; */
-
+  margin: auto;
 }
